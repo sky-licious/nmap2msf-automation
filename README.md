@@ -103,3 +103,4 @@ It never runs exploit modules automatically unless the user modifies the `.rc` f
 
 ##  Author Notes
 This project was designed for automation labs and penetration testing training environments where all setup and configuration are handled by the script itself.
+# nmap2msf-automation
