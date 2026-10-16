@@ -1,0 +1,9 @@
+# Python dependencies for nmap2msf
+pyyaml
+openai
+groq
+python-docx
+pdfkit
+pypandoc
+requests
+lxml

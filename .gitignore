@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+scan.xml
+nmap2msf.rc
+nmap2msf_plan.json
+.env

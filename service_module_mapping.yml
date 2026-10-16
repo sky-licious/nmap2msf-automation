@@ -1,0 +1,62 @@
+http:
+- auxiliary/scanner/http/http_version
+- auxiliary/scanner/http/title
+https:
+- auxiliary/scanner/http/http_version
+- auxiliary/scanner/http/title
+ssh:
+- auxiliary/scanner/ssh/ssh_version
+ftp:
+- auxiliary/scanner/ftp/ftp_version
+smb:
+- auxiliary/scanner/smb/smb_version
+snmp:
+- auxiliary/scanner/snmp/snmp_enum
+smtp:
+- auxiliary/scanner/smtp/smtp_version
+dns:
+- auxiliary/scanner/dns/dns_enum
+mssql:
+- auxiliary/scanner/mssql/mssql_ping
+mysql:
+- auxiliary/scanner/mysql/mysql_version
+postgresql:
+- auxiliary/scanner/postgres/postgres_version
+rdp:
+- auxiliary/scanner/rdp/rdp_version
+vnc:
+- auxiliary/scanner/vnc/vnc_version
+telnet:
+- auxiliary/scanner/telnet/telnet_version
+netbios:
+- auxiliary/scanner/netbios/nbname
+rpc:
+- auxiliary/scanner/rpc/portmapper
+ldap:
+- auxiliary/scanner/ldap/ldap_version
+nntp:
+- auxiliary/scanner/nntp/nntp_version
+redis:
+- auxiliary/scanner/redis/redis_ping
+memcached:
+- auxiliary/scanner/memcached/memcached_version
+couchdb:
+- auxiliary/scanner/couchdb/couchdb_version
+elasticsearch:
+- auxiliary/scanner/elasticsearch/es_version
+mongodb:
+- auxiliary/scanner/mongodb/mongodb_version
+docker:
+- auxiliary/scanner/misc/placeholder
+sip:
+- auxiliary/scanner/sip/sip_version
+upnp:
+- auxiliary/scanner/upnp/upnp_scanner
+imap:
+- auxiliary/scanner/imap/imap_version
+pop3:
+- auxiliary/scanner/pop3/pop3_version
+postgres:
+- auxiliary/scanner/postgres/postgres_version
+oracle_tns:
+- auxiliary/scanner/oracle/tns_version
